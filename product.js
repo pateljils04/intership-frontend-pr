@@ -1,7 +1,7 @@
  // add to cart
 
  function fetchdata() {
-    fetch("http://localhost:3000/cart")
+    fetch("https://inter-ship-pr-backend.onrender.com/cart")
         .then((res) => res.json())
         .then((data) => listcart(data))
         .catch((err) => console.log(err))
@@ -48,7 +48,7 @@ document.addEventListener("click", (e) => {
 })
 
 function dataProduct(id) {
-    fetch(`http://localhost:3000/cart/${id}`, {
+    fetch(`https://inter-ship-pr-backend.onrender.com/cart/${id}`, {
         method: 'DELETE',
     })
         .then((res) => res.json())

@@ -14,7 +14,7 @@ addtocart.addEventListener("click",()=>{
             price:param.get("price"),
         }
 
-        fetch("http://localhost:3000/cart",{
+        fetch("https://inter-ship-pr-backend.onrender.com/cart",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
