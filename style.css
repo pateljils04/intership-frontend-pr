@@ -1,0 +1,662 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+/*
+ *  STYLE 2
+ */
+
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar {
+    width: 13px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #060606;
+}
+
+
+.main_nav1 {
+    position: sticky;
+    width: 100%;
+    top: 0%;
+    background-color: white;
+    z-index: 50;
+
+}
+
+
+.head_nav .link {
+    font-size: 13px;
+    font-weight: 700;
+    /* line-height: 1.75; */
+    text-transform: uppercase;
+    color: #212a2f;
+    transition: 0.4s all;
+    border-bottom: 1px solid white;
+
+}
+
+.head_nav .link:hover {
+    border-bottom: 1px solid black;
+}
+
+
+/* .head_nav .head_para:hover{
+    border-bottom: none;
+} */
+.head_nav2 {
+    display: flex;
+    justify-content: end;
+}
+
+.head_nav2 .link {
+    font-size: 13px;
+    font-weight: 700;
+    /* line-height: 1.75; */
+    text-transform: uppercase;
+    color: #212a2f;
+    transition: 0.4s all;
+    border-bottom: 1px solid white;
+}
+
+.head_nav2 .link:hover {
+    border-bottom: 1px solid black;
+}
+
+
+.head_nav2 i {
+    font-size: 21px;
+
+}
+
+.black-box {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    background-color: black;
+}
+
+.black-box a {
+    color: rgb(255, 255, 255);
+}
+
+
+
+.nav-to {
+    color: black;
+    font-size: 30px;
+}
+
+
+/* form css */
+.L-form h4 {
+    font-weight: 700;
+    color: #212a2f;
+}
+
+.L-form label {
+    font-size: 12px;
+    color: #212a2f;
+    font-weight: 600;
+}
+
+.L-form input {
+    border: none;
+    outline: none;
+}
+
+.L-form button {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    display: block;
+    width: 95%;
+    background-color: black;
+    border: 2px solid black;
+    transition: all 0.5s;
+}
+
+.L-form button:hover {
+    background-color: #f1ebe7;
+    color: black;
+}
+
+.L-form .for-p {
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.checkbox input {
+    height: 18px;
+    width: 21px;
+}
+
+.checkbox p {
+    font-size: 14px;
+
+}
+
+.L-form .end-p {
+    font-size: 11px;
+}
+
+.L-form .end-l {
+    font-size: 12px;
+    color: #212a2f;
+    font-weight: 700;
+}
+
+
+/* footer */
+.input-box p {
+    color: white;
+    font-size: 14px;
+}
+
+.footer input {
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 85, 89);
+    width: 20%;
+}
+
+.footer button {
+    border: 3px solid rgb(77, 85, 89);
+    background-color: rgb(77, 85, 89);
+    ;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.footer button:hover {
+    border: 3px solid white;
+    background-color: white;
+    color: black;
+}
+
+.help-box p {
+    font-size: 14px;
+    color: white;
+}
+
+.help-box h6 {
+    font-size: 16 px;
+    color: white;
+    font-weight: 600;
+}
+
+.icon-box h6 {
+    color: white;
+    font-weight: 600;
+}
+
+.icon-box p {
+    color: white;
+    font-size: 14px;
+}
+
+/* .inner-icons{
+    color: white;
+} */
+.icon-box i {
+    color: white;
+}
+
+.copyright p {
+    color: white;
+    font-size: 12px;
+}
+
+.copyright a {
+    color: white;
+    font-size: 12px;
+}
+
+
+/* slider css */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.features {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 10.3%;
+    transform: translate(-50%, -50%);
+}
+
+.features h6 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #212a2f;
+}
+
+.features p {
+    font-size: 14px;
+    color: #212a2f;
+}
+
+.new-features {
+    /* background-color: white; */
+    /* text-align: end; */
+    color: white;
+    position: absolute;
+    top: 76%;
+    right: -13%;
+    transform: translate(-50%, -50%);
+}
+
+.new-features h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.new-features p {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: end;
+}
+
+.new-features .main-btn {
+    text-align: end;
+}
+
+.main-btn button {
+    border: 2px solid white;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    transition: all 0.5s;
+}
+
+.main-btn button:hover {
+    color: white;
+    background-color: rgb(33, 42, 47);
+    border: 2px solid rgb(33, 42, 47);
+}
+
+
+/*  filter-box */
+
+.filter-box a {
+    color: #212a2f;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.filter-box h3 {
+    font-size: 22px;
+    color: #212a2f;
+    font-weight: 600;
+
+}
+
+.filter-cont p {
+    color: #212a2f;
+    font-size: 14px;
+
+}
+
+.shoes-banner {
+    background-image: url(../images/sm1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.shoes-cont h2 {
+    font-size: 30px;
+    color: #212a2f;
+    font-weight: 600;
+}
+
+.shoes-cont p {
+    font-size: 17px;
+    color: #212a2f;
+}
+
+.shoe-btn button {
+    background-color: #212a2f;
+    color: white;
+    border: 2px solid #212a2f;
+    transition: 0.5s all;
+
+}
+
+.shoe-btn button:hover {
+    background-color: white;
+    color: #212a2f;
+    border: 2px solid #212a2f;
+}
+
+.shoes-banner2 {
+    background-image: url(../images/sm2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 590px;
+}
+
+
+.shoes-banner3 {
+    background-image: url(../images/sm3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 590px;
+}
+
+
+/* fetchdata css product */
+
+
+.shoes-card p a {
+    text-decoration: none;
+    color: #212a2f;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.size a {
+    color: #212a2f;
+    border: 1px solid #212a2f;
+    text-decoration: none;
+}
+
+.size a:hover {
+    background: #eaecec;
+}
+
+/* explore box  */
+.explore-box p {
+    font-size: 14px;
+    color: #212a2f;
+    font-weight: 600;
+    background-color: white;
+}
+
+.explore-box h1 {
+    font-size: 25px;
+    color: #212a2f;
+    font-weight: 600;
+
+}
+
+/* email box */
+.email-box h1 {
+    font-size: 28px;
+    color: #212a2f;
+    font-weight: 600;
+}
+
+.email-box button {
+    background-color: #212a2f;
+    color: white;
+    font-weight: 600;
+    transition: 0.5s all;
+    border: 2px solid #212a2f;
+}
+
+.email-box button:hover {
+    background-color: white;
+    color: #212a2f;
+    border: 2px solid #212a2f;
+}
+
+.email-box span {
+    font-size: 14px;
+    color: rgb(77, 85, 89);
+}
+
+
+
+/*  New Arrival slider box */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    /* box-shadow: 10px 9px 9px #dadada; */
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s all;
+}
+
+.arrival-item {
+    overflow: hidden;
+}
+
+.arrival-cont h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.32;
+}
+
+.arrival-cont p {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.swiper-slide .arrival-item img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+.new-main {
+    background-image: url(../images/mainbg2.avif);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.new-features3 h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.new-features3 p {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+
+    color: white;
+}
+
+.new-features3 {
+    text-align: start;
+}
+
+.new-main-btn button {
+    border: 2px solid white;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    transition: all 0.5s;
+}
+
+.new-main-btn button:hover {
+    color: white;
+    background-color: rgb(33, 42, 47);
+    border: 2px solid rgb(33, 42, 47);
+}
+
+
+
+/* description page css */
+
+.desc-title h2 {
+    font-size: 18px;
+    color: #212a2f;
+    font-weight: 600;
+}
+
+.desc-title p {
+    font-size: 15px;
+    color: #212a2f;
+    border-top: 1.4px solid rgb(217, 216, 216);
+}
+
+
+.desc-size a {
+    color: #212a2f;
+    border: 1px solid #212a2f;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.desc-size a:hover {
+    background: #eaecec;
+}
+
+
+
+
+.desc-cont h1 {
+    font-weight: 600;
+}
+
+.desc-cont h6 {
+    font-size: 17px;
+}
+
+.desc-cont .add {
+    color: white;
+    background-color: #212a2f;
+    border: 2px solid #212a2f;
+    font-weight: 600;
+}
+
+.desc-cont .add:hover {
+    background-color: white;
+    color: #212a2f;
+}
+
+.desc-cont .desc-p {
+    font-size: 13px;
+    color: #212a2f;
+    font-weight: 500;
+}
+
+.desc-all-img h3 {
+    font-weight: 600;
+}
+
+/* carttab css */
+
+#cart-tab::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#cart-tab::-webkit-scrollbar {
+    width: 13px;
+    background-color: #F5F5F5;
+}
+
+#cart-tab::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #a59e9e;
+}
+
+
+
+.carttab {
+    width: 400px;
+    color: black;
+    background-color: white;
+    position: fixed;
+    inset: 0 -400px 0 auto;
+    z-index: 55;
+    overflow: auto;
+
+}
+
+/* .carttab{
+} */
+.active-cart {
+    inset: 0 0 0 auto;
+    z-index: 100;
+}
+
+/* sorting price */
+
+.sort-price button {
+    border: 2px solid #212a2f;
+    background-color: white;
+    color: #212a2f;
+    transition: 0.5s all;
+}
+
+.sort-price button:hover {
+    border: 2px solid #212a2f;
+    background-color: #212a2f;
+    color: white;
+}
